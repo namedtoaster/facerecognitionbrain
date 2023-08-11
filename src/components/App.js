@@ -1,6 +1,6 @@
 import './App.css';
 
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import { Component } from 'react';
 
 import Navigation from './Navigation/Navigation'
