@@ -13,7 +13,7 @@ import Register from './Register/Register'
 
 window.process = {}
 const app = new Clarifai.App({
-  apiKey: 'fd000134f6124cadaa9552348e70517c'
+  apiKey: process.env.REACT_APP_CLARIFAI_KEY
  });
 
 const particlesOptions = {
